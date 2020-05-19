@@ -13,7 +13,7 @@ public class CalendarTest {
 		
 		Calendar cal1977=Calendar.getInstance(); 
 		//cal1977.set(1977, 4 ,6);  // 0월 ~11월 
-		cal1977.set(1977, Calendar.MAY ,6);  // 0월 ~11월 		
+		cal1977.set(1977, Calendar.MAY ,9);  // 0월 ~11월 		
 		Calendar today=Calendar.getInstance();   // 오늘 
 		printCalendar(today);
 		long minus=today.getTimeInMillis()-cal1977.getTimeInMillis();
